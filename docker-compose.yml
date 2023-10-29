@@ -1,7 +1,7 @@
 version: '3.1'
 
 services:
-  pokebot:
+  steamscout:
     image: evilgenius13/steamscout:v1.0
     container_name: steamscout
     environment:
