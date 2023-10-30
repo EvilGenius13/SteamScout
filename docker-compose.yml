@@ -6,3 +6,8 @@ services:
     container_name: steamscout
     environment:
       - DISCORD_TOKEN=your_discord_token_here
+    volumes:
+      - steam_scout_data:/app/data
+
+volumes:
+  steam_scout_data:
